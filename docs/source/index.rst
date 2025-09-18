@@ -19,3 +19,5 @@ dscheck documentation
    introduction
    usage
    action-options
+   mode-options
+   information-options

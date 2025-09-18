@@ -29,3 +29,5 @@ categories:
    actions/check-actions
    actions/check-process-actions
    actions/daemon-host-connectivity
+   actions/set-batch-options
+   

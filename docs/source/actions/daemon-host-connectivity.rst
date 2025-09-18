@@ -5,7 +5,7 @@ Action option ``-CH`` or ``-CheckHost`` checks connectivity of daemon hosts for 
 
 .. code-block:: console
   
-dscheck -(CH|CheckHost)
+  dscheck -(CH|CheckHost)
         [-(DI|DaemonIndex) controlIndices]
         [-(CM|Command) UtilityProgramNames]
         [-(SN|Specialist) DECSSpecialists]
