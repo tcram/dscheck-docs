@@ -6,8 +6,6 @@
 dscheck documentation
 =====================
 
-**Welcome to dscheck's documentation!**
-
 **dscheck** is a utility to add, remove, view and process recorded commands of other utility programs in Research Data Archive Management System (RDAMS). For delayed execution or submitted batch process of the utility programs **dsarch**, **dsupdt**, and **dsrqst**, the command information and the directories where the commands are initiated are saved into RDADB as check records. For any other specialist-defined commands, they can be also put in delayed mode if the commands are added to **dscheck** control via Action -AC (-AddCheck).
 
 .. note::
