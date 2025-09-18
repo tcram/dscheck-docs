@@ -8,7 +8,14 @@ The status of the current check records can be gathered and emailed to a special
   
 Here are the actions for process checks:
 
-* Process Check - start a command from its information recorded in 'dscheck' 
-* Interrupt Check - interrupt a running command for given check record and clean the
-  child processes 
-* Email Check - email a specialist for the status of the current check records
+Process Check
+--------------
+Start a command from its information recorded in 'dscheck' 
+
+Interrupt Check
+---------------
+Interrupt a running command for given check record and clean the child processes
+
+Email Check
+-----------
+Email a specialist for the status of the current check records

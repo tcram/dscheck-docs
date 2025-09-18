@@ -6,7 +6,18 @@ recorded automatically, while other commands, including **dsarch** and specialis
 defined ones, can be manually added into **dscheck**. Command information can be
 added, viewed and manipulated via **dscheck** actions:
 
-* Add Check - Add a new check record for a specified command
-* Get Check - get the command information recorded in check records
-* Delete Check - delete check records for no need of processing the commands
-* Unlock Check - unlock check records in case that its recorded command is aborted without cleaning the lock
+Add Check
+----------
+Add a new check record for a specified command
+
+Get Check
+----------
+Get the command information recorded in check records
+
+Delete Check
+------------
+Delete check records for no need of processing the commands
+
+Unlock Check
+-------------
+Unlock check records in case that its recorded command is aborted without cleaning the lock
