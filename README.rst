@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+Prototype Read the Docs documentation for dscheck
+=================================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
+This follows the tutorial here:
 
 https://docs.readthedocs.io/en/stable/tutorial/
