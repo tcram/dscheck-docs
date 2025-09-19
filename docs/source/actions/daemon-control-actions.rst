@@ -46,15 +46,19 @@ Specify host name 'SLURM' for putting the command in the SLURM batch control sys
 a specified command name is not found in the daemon control, the general 'dscheck'
 configuration for command name 'ALL' is used.
   
-For example, set daemon control information for schuster, all commands on SLURM hosts,
-for maximum 4 checks can be processed at the same time with priority 1, the smaller
-the number the higher the priority is, via input file daemon.ctl
-
-  dsrqst SD -ND -IF daemon.ctl
+For example, to set the daemon control information for user schuster, with all 
+commands running on PBS hosts, a maximum of 4 checks can be processed simultaneously, 
+with priority level 1 (the smaller the number the higher the priority), the configuration
+is specified via the input file daemon.ctl as follows:
 
 .. code-block:: bash
 
-    Content of input file daemon.ctl
+    dsrqst SD -ND -IF daemon.ctl
+
+where the contents of input file daemon.ctl are:
+
+.. code-block:: text
+
     DaemonIndex<:>Command <:>Specialist<:>Hostname<:>ProcessLimit<:>Priority<:>
     0          <:>schuster<:>ALL       <:>SLURM   <:>4           <:>1       <:>
 

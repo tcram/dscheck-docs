@@ -25,9 +25,8 @@ categories:
    :maxdepth: 2
    :titlesonly:
 
-   actions/daemon-control-actions
-   actions/check-actions
-   actions/check-process-actions
-   actions/daemon-host-connectivity
-   actions/set-batch-options
-   
+   daemon-control-actions
+   check-actions
+   check-process-actions
+   daemon-host-connectivity
+   set-batch-options

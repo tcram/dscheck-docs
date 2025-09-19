@@ -16,8 +16,8 @@ dscheck documentation
    :maxdepth: 2
    :caption: Contents:
 
-   introduction
-   usage
-   action-options
-   mode-options
-   information-options
+   introduction/introduction
+   usage/usage
+   actions/action-options
+   modes/mode-options
+   information/information-options
