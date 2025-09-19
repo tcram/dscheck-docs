@@ -9,13 +9,13 @@ Based on the information being manipulated, the actions are divided into three
 categories:
 
 :Daemon Control Actions:
-    Create, delete, modify and view daemon control information in RDADB, of specified specialist, command and hostname                                                                                                                                                                                                                |
+    Create, delete, modify and view daemon control information in RDADB, of specified specialist, command and hostname
 
-:Check Actions: 
-    Add, delete, unlock and view check information of the active individual checks                                                                                                                                                                                                                                                    |
+:Check Actions:
+    Add, delete, unlock and view check information of the active individual checks
 
 :Check Process Actions:
-    Process checks by starting commands on remote hosts as configured in daemon controls and purge checks by recording the commands and their execution information into check history; interrupt the current executing commands by killing the current process and its all children; and email status of current checks              |
+    Process checks by starting commands on remote hosts as configured in daemon controls and purge checks by recording the commands and their execution information into check history; interrupt the current executing commands by killing the current process and its all children; and email status of current checks
 
 .. toctree::
    :caption: Action Categories
